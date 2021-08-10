@@ -210,11 +210,13 @@ textarea {
 }
 
 .header-top-ok.color,.header-top-ok-s {
-	height: 60px;
+	/*height: 60px;*/
+	height: 0px;
 }
 
 .header-top-ok,.header-top-ok-a {
-	height: 60px;
+	/*height: 60px;*/
+	height: 0px;
 }
 
 .iconfont {
@@ -231,7 +233,7 @@ textarea {
 }
 
 .loading {
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/loading.gif) no-repeat center;
+	background: url(../images/loading.gif) no-repeat center;
 	display: block;
 	text-indent: 15%;
 }
@@ -254,7 +256,7 @@ textarea {
 }
 /* header */
 .header-top {
-	position: fixed;
+	/*position: fixed;*/
 	top: 0;
 	z-index: 888;
 	width: 100%;
@@ -1326,7 +1328,7 @@ textarea {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/hua.png) no-repeat center 8px;
+	background: url(../images/hua.png) no-repeat center 8px;
 	padding: 0 30px 65px 30px;
 	color: #F18167;
 	text-align: right;
@@ -1701,7 +1703,7 @@ textarea {
 	height: 390px;
 	clear: none;
 	visibility: visible;
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/star-right.png)
+	background: url(../images/star-right.png)
 }
 
 .star-top::before {
@@ -1713,7 +1715,7 @@ textarea {
 	margin: 0 0 0 -798px;
 	width: 400px;
 	height: 390px;
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/star-left.png)
+	background: url(../images/star-left.png)
 }
 
 .star-top-info {
@@ -1754,7 +1756,7 @@ textarea {
 	font-size: 14px;
 	padding-top: 30px;
 	background-position: 0 -1px;
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/detailMap24.png) 0 0 no-repeat;
+	background: url(../images/detailMap24.png) 0 0 no-repeat;
 }
 
 .star-box {
@@ -2115,7 +2117,7 @@ body.box .type-box {
 }
 
 .article-content img.lazyload,.article-images-content img.lazyload {
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/loading.gif) no-repeat center;
+	background: url(../images/loading.gif) no-repeat center;
 	display: block;
 }
 
@@ -2419,7 +2421,7 @@ body.box .details-play-list {
 }
 
 .gico {
-	background-image: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/palyer.png);
+	background-image: url(../images/palyer.png);
 	background-repeat: no-repeat;
 	font-size: 14px;
 	display: block;
@@ -2707,11 +2709,11 @@ body.box .vod-play-box {
 	width: 25px;
 	height: 25px;
 	text-indent: -99px;
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/xxing.png) no-repeat
+	background: url(../images/xxing.png) no-repeat
 }
 
 #rating .rating li.active,#rating .rating li.hover {
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/sxing.png) no-repeat
+	background: url(../images/sxing.png) no-repeat
 }
 
 .rating-box {
@@ -2719,7 +2721,7 @@ body.box .vod-play-box {
 	height: 85px;
 	margin-top: -50px;
 	position: relative;
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/score-scale.gif) 8px bottom no-repeat;
+	background: url(../images/score-scale.gif) 8px bottom no-repeat;
 	display: none;
 	z-index: 4;
 	padding-left: 9px;
@@ -2833,7 +2835,7 @@ body.box .vod-play-box {
 	float: left;
 	margin-top: 1px;
 	margin-right: 5px;
-	background: url(//cdn.jsdelivr.net/gh/jscsscdsn/07xc/star-min.gif) no-repeat
+	background: url(../images/star-min.gif) no-repeat
 }
 
 .rating-box .rating-show .star5 {
@@ -3248,7 +3250,8 @@ body.box .vod-play-box {
 	}
 
 	.header-top-ok,.header-top-ok.color {
-		height: 100px;
+		/*height: 100px;*/
+		height: 0px;
 	}
 
 	.header-top-ok-s {
