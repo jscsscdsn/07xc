@@ -346,7 +346,7 @@ textarea {
 	height: 50px;
 	line-height: 45px;
 	z-index: 666;
-	position: fixed;
+	/*position: fixed;*/
 	background: hsla(0,0%,100%,.7);
 	width: 100%;
 	overflow: hidden;
